@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - ./target/allure-results:/app/target/allure-results

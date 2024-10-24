@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="megogo" parallel="true">
+    <test name="api-tests">
+        <classes>
+            <class name="com.megogo.tests.api.MegogoTests"/>
+        </classes>
+    </test>
+</suite>
